@@ -24,7 +24,7 @@
                 android:id="@+id/heart_up"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:src="@drawable/heart" />
+                android:src="@drawable/ic_heart" />
 
         </LinearLayout>
     </LinearLayout>
@@ -34,7 +34,7 @@
         android:layout_width="133dp"
         android:layout_height="133dp"
         android:layout_weight="33"
-        android:src="@drawable/heart"
+        android:src="@drawable/ic_heart"
         android:layout_gravity="center"/>
 
     <LinearLayout
@@ -52,7 +52,7 @@
                 android:id="@+id/heart_down"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:src="@drawable/heart"
+                android:src="@drawable/ic_heart"
                 android:rotation="180"/>
             <TextView
                 android:layout_width="wrap_content"

@@ -18,7 +18,7 @@
             android:id="@+id/tv_rightside_up_letter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/a"
+            tools:text="@string/a"
             android:textSize="45sp"
             android:textColor="@android:color/holo_red_light"/>
 
@@ -53,7 +53,7 @@
             android:id="@+id/tv_upside_down_letter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/a"
+            tools:text="@string/a"
             android:rotation="180"
             android:textSize="45sp"
             android:textColor="@android:color/holo_red_light"/>
