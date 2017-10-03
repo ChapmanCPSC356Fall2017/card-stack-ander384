@@ -64,33 +64,33 @@ public class MainActivity extends AppCompatActivity {
             {
                 topLeftLetterTextView.setTextColor(Color.RED);
                 bottomRightLetterTextView.setTextColor(Color.RED);
-                bottomRightSuitImageView.setBackgroundResource(R.drawable.heart);
-                topLeftSuitImageView.setBackgroundResource(R.drawable.heart);
-                centerSuitImageView.setBackgroundResource(R.drawable.heart);
+                bottomRightSuitImageView.setBackgroundResource(R.drawable.ic_heart);
+                topLeftSuitImageView.setBackgroundResource(R.drawable.ic_heart);
+                centerSuitImageView.setBackgroundResource(R.drawable.ic_heart);
             }
             else if (cardSuit==2)
             {
                 topLeftLetterTextView.setTextColor(Color.RED);
                 bottomRightLetterTextView.setTextColor(Color.RED);
-                bottomRightSuitImageView.setBackgroundResource(R.drawable.diamond);
-                topLeftSuitImageView.setBackgroundResource(R.drawable.diamond);
-                centerSuitImageView.setBackgroundResource(R.drawable.diamond);
+                bottomRightSuitImageView.setBackgroundResource(R.drawable.ic_diamond);
+                topLeftSuitImageView.setBackgroundResource(R.drawable.ic_diamond);
+                centerSuitImageView.setBackgroundResource(R.drawable.ic_diamond);
             }
             else if (cardSuit==3)
             {
                 topLeftLetterTextView.setTextColor(Color.BLACK);
                 bottomRightLetterTextView.setTextColor(Color.BLACK);
-                bottomRightSuitImageView.setBackgroundResource(R.drawable.spade);
-                topLeftSuitImageView.setBackgroundResource(R.drawable.spade);
-                centerSuitImageView.setBackgroundResource(R.drawable.spade);
+                bottomRightSuitImageView.setBackgroundResource(R.drawable.ic_spade);
+                topLeftSuitImageView.setBackgroundResource(R.drawable.ic_spade);
+                centerSuitImageView.setBackgroundResource(R.drawable.ic_spade);
             }
             else
             {
                 topLeftLetterTextView.setTextColor(Color.BLACK);
                 bottomRightLetterTextView.setTextColor(Color.BLACK);
-                bottomRightSuitImageView.setBackgroundResource(R.drawable.club);
-                topLeftSuitImageView.setBackgroundResource(R.drawable.club);
-                centerSuitImageView.setBackgroundResource(R.drawable.club);
+                bottomRightSuitImageView.setBackgroundResource(R.drawable.ic_club);
+                topLeftSuitImageView.setBackgroundResource(R.drawable.ic_club);
+                centerSuitImageView.setBackgroundResource(R.drawable.ic_club);
             }
 
             if (cardNumber==1)
