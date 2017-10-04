@@ -36,11 +36,6 @@ public class MainActivity extends AppCompatActivity {
                 CardStack.push(new Card(j, i));
             }
         }
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
         Collections.shuffle(CardStack);
         nextCard();
     }

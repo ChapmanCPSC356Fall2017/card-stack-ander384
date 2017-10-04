@@ -4,7 +4,7 @@ package com.example.christine.cardstackproject;
  * Created by Christine on 9/29/2017.
  */
 
-public class Card {
+class Card {
     private int suit;
     private int number;
 
@@ -14,7 +14,7 @@ public class Card {
         number=theNumber;
     }
 
-    public int getNumber() {
+    int getNumber() {
         return number;
     }
 
@@ -22,7 +22,7 @@ public class Card {
         this.number = number;
     }
 
-    public int getSuit() {
+    int getSuit() {
         return suit;
     }
 
